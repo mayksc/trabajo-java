@@ -25,7 +25,7 @@ import java.util.logging.Logger;
                 System.out.println(rs.getString("nombre"));
             }
             //Insercion de datos//
-            statement.execute("INSERT INTO `usuarios` (`id`, `nombre`) VALUES (NULL, 'yuly');");
+            statement.execute("INSERT INTO `usuarios` (`id`, `nombre`) VALUES (NULL, 'marcos');");
             System.out.println("");
             
             rs = statement.executeQuery("SELECT * FROM usuarios");
